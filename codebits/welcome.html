@@ -1,0 +1,13 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+	<script>
+	angular.module('name', [ ]);
+	</script>
+	<title>My Angular "Welcome" page</title>
+</head>
+<body ng-app="name">
+<h3>Please enter your name here:<input type="text" ng-model="name"></h3>
+<h1>Welcome, <span ng-bind="name"></span></h1>
+</body>
+</html>

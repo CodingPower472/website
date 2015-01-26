@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Calculator</title>
+	<script>
+	var num1 = 0;
+	var num2 = 0;
+	function click1 (e) {
+		num1 = parseInt(e.target.innerHTML);
+	}
+	function click2 (e) {
+		num2 = parseInt(e.target.innerHTML);
+	}
+	function add () {
+		alert(num1 + num2);
+	}
+	function subtract () {
+		alert(num1 - num2)
+	}
+	function multiply () {
+		alert(num1 * num2)
+	}
+	function divide () {
+		alert(num1 / num2)
+	}
+	</script>
+</head>
+<body>
+<button onclick="click1(event)">1</button>
+<button onclick="click1(event)">2</button>
+<button onclick="click1(event)">3</button>
+<button onclick="click1(event)">4</button>
+<button onclick="click1(event)">5</button>
+<button onclick="click1(event)">6</button>
+<button onclick="click1(event)">7</button>
+<button onclick="click1(event)">8</button>
+<button onclick="click1(event)">9</button>
+<br>
+<button onclick="click2(event)">1</button>
+<button onclick="click2(event)">2</button>
+<button onclick="click2(event)">3</button>
+<button onclick="click2(event)">4</button>
+<button onclick="click2(event)">5</button>
+<button onclick="click2(event)">6</button>
+<button onclick="click2(event)">7</button>
+<button onclick="click2(event)">8</button>
+<button onclick="click2(event)">9</button>
+<button onclick="add(event)">Add</button>
+<button onclick="subtract(event)">Subtract</button>
+<button onclick="multiply(event)">Multiply</button>
+<button onclick="divide(event)">Divide</button>
+</body>
+</html>
